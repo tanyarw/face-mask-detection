@@ -8,6 +8,7 @@ tensorflow
 scikit-learn
 OpenCV
 nbformat
+pillow
 
 Dataset directory paths:-
 
