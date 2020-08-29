@@ -1,10 +1,11 @@
-# face-mask-detection
+# face-mask-detector
+
 Run file:-
 Live feed.ipynb
 
 Prerquisites:-
 
-tensorflow
+tensorflow>2.0
 scikit-learn
 OpenCV
 nbformat
