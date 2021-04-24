@@ -1,27 +1,26 @@
-# face-mask-detector
+# Face Mask Detector
+Detect if a person is wearing a face mask or not real-time, using camera.
 
-Run file:-
-Live feed.ipynb
+![arch](./flowchart.png)
+## Run
+Open and run file Live feed.ipynb
 
-Prerquisites:-
+## Required libraries
+- tensorflow>2.0
+- scikit-learn
+- OpenCV
+- nbformat
+- pillow
 
-tensorflow>2.0
-scikit-learn
-OpenCV
-nbformat
-pillow
-
-Dataset directory paths:-
-
-env\dataset\training_set\mask
-
+## Dataset directory paths
+### TRAIN SET
+env\dataset\training_set\mask <br>
 env\dataset\training_set\no_mask
-
-env\dataset\test_set\mask
-
+### TEST SET
+env\dataset\test_set\mask <br>
 env\dataset\test_set\no_mask
 
-Dataset source:-
-
-https://www.kaggle.com/andrewmvd/face-mask-detection
+## Dataset
+The dataset can be sourced from the following links: <br>
+https://www.kaggle.com/andrewmvd/face-mask-detection <br>
 https://drive.google.com/drive/folders/1taHKxS66YKJNhdhiGcEdM6nnE5W9zBb1
